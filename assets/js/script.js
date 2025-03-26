@@ -227,3 +227,30 @@ if (resumeBtn) {
 
 
 
+function applyStyles() {
+  document.querySelectorAll('.chip').forEach(chip => {
+    // Default styles (same for web and mobile)
+    chip.style.backgroundColor = '#2c2c2c'; // Dark background
+    chip.style.color = '#f0f0f0'; // Light text
+    chip.style.border = '1px solid #3d3d3d';
+    chip.style.padding = '8px 14px';
+    chip.style.borderRadius = '16px';
+    chip.style.fontSize = '14px';
+    chip.style.fontWeight = 'bold';
+    chip.style.transition = 'all 0.3s ease-in-out';
+
+    // Remove any existing margin
+    chip.style.margin = '0';
+  });
+
+  // Add spacing only in mobile (≤ 768px)
+  if (window.innerWidth <= 768) {
+    document.querySelectorAll('.chip').forEach(chip => {
+      chip.style.margin = '8px'; // Spacing between chips only in mobile
+    });
+  }
+}
+
+// Apply styles on page load and resize
+window.addEventListener('DOMContentLoaded', applyStyles);
+window.addEventListener('resize', applyStyles);
