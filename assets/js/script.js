@@ -213,7 +213,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
 // Resume download function
 const downloadResume = function () {
-  const resumeUrl = 'https://drive.usercontent.google.com/u/0/uc?id=1q9_k3P3h15iAIoecekG1oTuCk1CJ-Aod&export=download';
+  const resumeUrl = 'https://drive.google.com/file/d/1OoTx7MdjHmWrzXfHWnU9UvnoqDp2H4mT/view';
   window.open(resumeUrl, '_blank'); // Opens the link in a new tab
 };
 
