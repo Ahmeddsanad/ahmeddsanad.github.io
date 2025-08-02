@@ -2258,3 +2258,26 @@ textarea.form-input::-webkit-resizer {
   margin-left: 8px; /* Adds spacing from name */
   visibility: visible; /* Ensures it’s not hidden */
 }
+
+.google-play-link {
+  display: inline-flex;
+  align-items: center;
+  background: #4285f4;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.google-play-link:hover {
+  background: #3367d6;
+}
+
+.google-play-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
