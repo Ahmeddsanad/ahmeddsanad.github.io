@@ -2259,17 +2259,23 @@ textarea.form-input::-webkit-resizer {
   visibility: visible; /* Ensures it’s not hidden */
 }
 
+.title-with-store {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
 .google-play-link {
   display: inline-flex;
   align-items: center;
   background: #4285f4;
   color: white;
-  padding: 8px 12px;
-  border-radius: 6px;
+  padding: 6px 8px;
+  border-radius: 4px;
   text-decoration: none;
-  font-size: 14px;
-  font-weight: 500;
   transition: background-color 0.3s ease;
+  flex-shrink: 0;
 }
 
 .google-play-link:hover {
@@ -2277,7 +2283,6 @@ textarea.form-input::-webkit-resizer {
 }
 
 .google-play-icon {
-  width: 20px;
-  height: 20px;
-  margin-right: 8px;
+  width: 18px;
+  height: 18px;
 }
