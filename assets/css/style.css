@@ -2263,7 +2263,7 @@ textarea.form-input::-webkit-resizer {
 .title-with-store {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   margin-bottom: 15px;
 }
 
