@@ -2259,6 +2259,7 @@ textarea.form-input::-webkit-resizer {
   visibility: visible; /* Ensures it’s not hidden */
 }
 
+/* Google Play Button Styles */
 .title-with-store {
   display: flex;
   align-items: center;
@@ -2271,18 +2272,22 @@ textarea.form-input::-webkit-resizer {
   align-items: center;
   background: #4285f4;
   color: white;
-  padding: 6px 8px;
-  border-radius: 4px;
+  padding: 3px 6px;
+  border-radius: 2px;
   text-decoration: none;
   transition: background-color 0.3s ease;
   flex-shrink: 0;
+  cursor: pointer;
+  font-size: 11px;
+  gap: 4px;
 }
 
 .google-play-link:hover {
   background: #3367d6;
+  cursor: pointer;
 }
 
 .google-play-icon {
-  width: 18px;
-  height: 18px;
+  width: 14px;
+  height: 14px;
 }
