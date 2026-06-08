@@ -2291,3 +2291,29 @@ textarea.form-input::-webkit-resizer {
   width: 14px;
   height: 14px;
 }
+
+.app-store-link {
+  display: inline-flex;
+  align-items: center;
+  background: #000000;
+  color: white;
+  padding: 3px 6px;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  flex-shrink: 0;
+  cursor: pointer;
+  font-size: 11px;
+  gap: 4px;
+}
+
+.app-store-link:hover {
+  background: #333333;
+  cursor: pointer;
+}
+
+.store-links {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
